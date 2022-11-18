@@ -1,0 +1,7 @@
+let counter=document.querySelector('h1');
+let count=0;
+setInterval(()=>{
+    counter.innerText=count;
+    count++;
+    if(count>0) location.replace('/page1.html')
+},1000)
